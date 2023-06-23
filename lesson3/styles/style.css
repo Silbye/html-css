@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Gilroy_sb';
+    src: url("../fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Gilroy_b';
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Gilroy_m';
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+body {
+    font-family: 'Gilroy_sb', sans-serif;
+    background: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.header {
+    padding-top: 26px;
+    padding-left: 300px;
+    padding-right: 200px;
+    padding-bottom: 48px;
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-right: 12px;
+    margin-bottom: 21px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 337px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    max-width: 556px;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.menu-item.menu-home a {
+    color: #F25822;
+}
+
+.menu-item.menu-features {
+    white-space: nowrap;
+}
+
+.menu-item a {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main-content {
+    padding-top: 15px;
+    padding-bottom: 27px;
+    padding-left: 16px;
+    max-height: 536px;
+    margin-bottom: 53px;
+}
+
+.main-content .container {
+    display: flex;
+}
+
+.main-info {
+    max-width: 589px;
+    padding-top: 59px;
+    padding-right: 26px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+}
+
+.main-title {
+    margin-left: 21px;
+    font-family: 'Gilroy_b', sans-serif;
+    font-size: 60px;
+    line-height: auto;
+    margin-bottom: 17px;
+}
+
+.main-text {
+    margin-left: 21px;
+    font-family: 'Gilroy_m', sans-serif;
+    font-size: 20px;
+    line-height: auto;
+    margin-bottom: 16px;
+    color: #888888;
+}
+
+.main-action {
+    display: flex;
+    padding-top: 21px;
+    padding-left: 23px;
+    padding-bottom: 23px;
+    padding-right: 49px;
+}
+
+.main-image {
+    width: 610px;
+    height: 372px;
+}
+
+.button {
+    font-family: 'Gilroy_b', sans-serif;
+    margin-right: 72px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    color: white;
+}
+
+.button-explain {
+    font-family: 'Gilroy_b', sans-serif;
+    margin-top: 18px;
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+.footer .container {
+    padding-left: 13px;
+    padding-right: 27px;
+    display: flex;
+}
+
+.footer-logo:first-child {
+    margin-left: 30px;
+}
+
+.footer-logo {
+    margin-right: 53px;
+}
