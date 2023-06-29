@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Gilroy_sb';
+    src: url("../fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Gilroy_b';
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Gilroy_m';
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Gilroy_r';
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
+body {
+    font-family: 'Gilroy_sb', sans-serif;
+    background: white;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.header {
+    padding-top: 26px;
+    padding-left: 300px;
+    padding-right: 200px;
+    padding-bottom: 48px;
+    margin-top: 14px;
+    margin-left: 18px;
+    margin-right: 12px;
+    margin-bottom: 21px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    margin-left: 337px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    max-width: 556px;
+}
+
+.menu-item {
+    margin-right: 30px;
+}
+
+.menu-item:hover a {
+    color: #F25822
+}
+
+.menu-item.menu-features {
+    white-space: nowrap;
+}
+
+.menu-item a {
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.main-content {
+    padding-top: 15px;
+    padding-bottom: 42px;
+    padding-left: 16px;
+    max-height: 536px;
+}
+
+.main-content .container {
+    display: flex;
+}
+
+.main-info {
+    max-width: 589px;
+    padding-top: 59px;
+    padding-right: 26px;
+    padding-left: 20px;
+    padding-bottom: 38px;
+}
+
+.main-title {
+    margin-left: 21px;
+    font-family: 'Gilroy_b', sans-serif;
+    font-size: 60px;
+    line-height: auto;
+    margin-bottom: 17px;
+}
+
+.main-text {
+    margin-left: 21px;
+    font-family: 'Gilroy_m', sans-serif;
+    font-size: 20px;
+    line-height: auto;
+    margin-bottom: 16px;
+    color: #888888;
+}
+
+.main-action {
+    display: flex;
+    padding-top: 21px;
+    padding-left: 23px;
+    padding-bottom: 23px;
+    padding-right: 49px;
+}
+
+.main-image {
+    width: 610px;
+    height: 372px;
+}
+
+.button {
+    font-family: 'Gilroy_b', sans-serif;
+    margin-right: 72px;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    font-size: 15px;
+    width: 140px;
+    height: 50px;
+    color: white;
+}
+
+.button-explain {
+    font-family: 'Gilroy_b', sans-serif;
+    margin-top: 18px;
+    font-size: 15px;
+    color: #aaaaaa;
+}
+
+.features {
+    padding-top: 105px;
+    padding-bottom: 80px;
+}
+
+.features-items {
+    display: flex;
+    justify-content: center;
+}
+
+.features-item {
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    margin-right: 30px;
+}
+
+.features-item:hover {
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.features-item-image {
+    margin-bottom: 25px;
+}
+
+.features-item-title {
+    font-family: 'Gilroy_b', sans-serif;
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.features-item-text {
+    font-family: 'Gilroy_r', sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px;
+    color: #666666;
+}
+
+.why {
+    padding-top: 92px;
+    padding-bottom: 100px;
+    background: #FAFAFA;
+}
+
+.why-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why-title-main {
+    font-family: 'Gilroy_b', sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.why-title-sub {
+    font-family: 'Gilroy_r', sans-serif;
+    font-size: 16px;
+    max-width: 685px;
+    text-align: center;
+    margin-bottom: 55px;
+    color: #666666;
+}
+
+.why-items {
+    display: flex;
+}
+
+.why-item {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 36px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+}
+
+.why-item:hover {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.why-item-image {
+    margin-bottom: 25px;
+}
+
+.why-item-title {
+    font-family: 'Gilroy_b', sans-serif;
+    font-size: 24px;
+    margin-bottom: 22px;
+}
+
+.why-item-text {
+    font-family: 'Gilroy_r', sans-serif;
+    max-width: 310px;
+    font-size: 15px;
+    margin-bottom: 39px;
+    color: #aaaaaa;
+}
+
+.why-button {
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-text {
+    margin-right: 6px;
+}
+
+.footer .container {
+    padding: 97px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo:first-child {
+    margin-left: 30px;
+}
+
+.footer-logo {
+    margin-right: 53px;
+}
